@@ -54,10 +54,76 @@ Wiring Diagram:
 
  How the System Works:
 
- 
+1️⃣ Enroll Mode (Option 1)
+
+User enters:
+
+- Student ID
+
+- Student Name
+
+. Fingerprint must be placed two times for confirmation.
+
+   If successful:
+
+- Student name is sent to Bluetooth module.
+
+- LED blinks 3×.
+
+- Success message printed.
+
+   
+2️⃣ Verify Mode (Option 2)
+
+- User places a finger.
+
+- System compares against stored templates.
+
+- Displays:
+
+“The student finger was enrolled before.”
+
+OR
+
+“Student finger is not enrolled.
 
 
+ How to Use:
 
+ Step 1 — Upload code to Arduino:
+
+  Select board & port → Upload
+
+ Step 2 — Open Serial Monitor:
+
+  Baud rate: 9600
+
+ Step 3 — Select an option:
+
+  1 = Enroll Student
+  2 = Verify Student
+
+Step 4 — Follow instructions:
+
+- Enter ID
+
+- Enter student name
+
+- Place finger twice
+
+Step 5 — Bluetooth receives student name:
+
+Used in apps like:
+
+- MIT App Inventor
+  
+- Bluetooth Serial Monitor
+
+  Author:
+
+Mansur Isah Madaki
+
+Powered by SmartSense
 
 
 
